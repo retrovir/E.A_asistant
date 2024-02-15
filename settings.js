@@ -26,7 +26,7 @@ global.ownernomer = "15415260827" //ur owner number2
 global.ownername = "Ejaz " //ur owner name
 global.ytname = "YT: Xeon" //ur yt chanel name
 global.socialm = "GitHub: DGXeon" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.location = "India,Us" //ur location
 
 //new
 global.botname = "E.A Asistant"
@@ -41,7 +41,7 @@ global.wm = "Xeon Bot Inc."
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD6' //script link
 global.packname = "Sticker By"
 global.author = "🦄드림 가이 Xeon\n\n"
-global.creator = "916909137213@s.whatsapp.net"
+global.creator = "15415260827@s.whatsapp.net"
 global.prefa = ['','!','.','#','&']
 global.sessionName = 'session'
 global.hituet = 0
