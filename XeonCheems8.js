@@ -6753,3 +6753,27 @@ isForwarded: true
 process.on('uncaughtException', function (err) {
 console.log('Caught exception: ', err)
 })
+// Your existing code for handling incoming messages
+// Assume you have a function to send messages called sendMessage()
+
+// Sample automated responses stored in an object
+const automatedResponses = {
+    "hello": "Hello! How can I help you today?",
+    "bye": "Goodbye! Have a great day.",
+    // Add more responses as needed
+};
+
+// Function to check incoming messages and send automated responses
+function checkAndSendAutomatedResponse(message) {
+    // Check if the message matches any predefined responses
+    const response = automatedResponses[message.toLowerCase()];
+    
+    // If a response is found, send the automated response
+    if (response) {
+        sendMessage(response);
+    }
+}
+
+// Handling incoming messages
+// Assuming you have a way to receive messages and process them
+// You can call checkAndSendAutomatedResponse(message) for each incoming message
